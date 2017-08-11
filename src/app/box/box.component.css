@@ -1,0 +1,42 @@
+#box {
+    float: left;
+    cursor: pointer;
+    position: relative;
+
+    height: 275px;
+    padding: 10px;
+    
+    transition: transform .2s;
+    animation-timing-function: ease-in-out;
+    z-index: 0;
+}
+
+#box:hover {
+    transform: scale(1.2, 1.2);
+    z-index: 1;
+}
+
+#box:hover #description, #box:hover #more {
+    display: inline-block;
+}
+
+#date {
+    text-align: right !important;
+    font-weight: normal;
+}
+
+#description, #more {
+    display: none;
+}
+
+#date {
+    display: inline;
+    transition: color .2s;
+    animation-timing-function: ease-in-out;    
+}
+
+.bottom {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}

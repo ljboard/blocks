@@ -1,0 +1,9 @@
+#section {
+    margin: 100px 20px;
+}
+
+.project-row {
+    display: block;
+    margin-left: 100px;
+    height: 295px;
+}
